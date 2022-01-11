@@ -101,18 +101,21 @@ hr{
 /*----- Latest Course------ */
 
 .course-banner img{
-width: 224px;
-height: 104px;
+    width: 224px;
+    height: 104px;
 }
 
-.rating-time{
+.course-info{
     display: flex;
 }
 
-.rating img{
-    width: 11.81px;
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
 }
 
-.time img{
-    width: 11.81px;
-}
+.not-filled{
+color: lightslategray;
+    }
